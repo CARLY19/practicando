@@ -1,3 +1,96 @@
-body{color: palevioletred;
-text-align: center;
-font-family: Georgia;  }
+ody {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgba(5, 5, 5, 0.158);
+	background: #ec42f194; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+    image-orientation: center;
+}
+
+#main-header {
+	background: rgb(243, 114, 200);
+	color: rgba(172, 9, 236, 0.623);
+	height: 80px;
+}	
+	#main-header a {
+		color: rgb(22, 21, 22);
+	}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: rgba(11, 248, 82, 0.842);
+	}
+	
+
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #e309eb;
+				}#main-content {
+                    background: rgba(199, 60, 169, 0.541);
+                    width: 90%;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    box-shadow: 0 0 10px rgba(0,0,0,.1);
+                }
+                
+                    #main-content header,
+                    #main-content .content {
+                        padding: 40px;
+                    }
+               
